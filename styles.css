@@ -11,56 +11,34 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f7f6de;
-
+  background-color: #f8f9fa;
 }
 
 header {
-  border: 3px solid rgb(236, 133, 133);
-  background: #eed6d6;
-  color: rgba(48, 38, 38, 0.884);
+  background: #333;
+  color: white;
   padding: 1rem;
   text-align: center;
 }
 
-nav a {
-  color: rgba(126, 13, 255, 0.932);
-  text-decoration: none;
-  padding: 0.5rem;
-}
-
 nav {
-  background: #dce4d8e0;
+  background: #f4f4f4;
   padding: 1rem;
 }
 
 main {
   display: flex;
   flex: 1;
-  background: rgba(116, 85, 85, 0.651);
+  background: white;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-#quees, #donde, #como, #porque, #quien,#dedonde {
-  color: #9230d4;
-}
-
-article p{
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.918);
-}
-
 aside {
-  background: #1d1818;
+  background: #f4f4f4;
   padding: 1rem;
   border-left: 1px solid #ccc;
-}
-
-aside a {
-  color: rgba(126, 13, 255, 0.932);
 }
 
 /* Estructura del layout */
@@ -87,8 +65,8 @@ aside a {
 }
 
 footer {
-  background: #aaa5a5;
-  color: rgb(100, 96, 96);
+  background: #333;
+  color: white;
   text-align: center;
   padding: 1rem;
   margin-top: auto;
@@ -96,15 +74,13 @@ footer {
 
 /* Indicadores de etiquetas semánticas */
 nav {
-  border: 3px solid rgb(23, 94, 23);
+  border: 3px solid green;
 }
 
 main {
   border: 3px solid blue;
-  background: #e8f3f3e0;
 }
 
 aside {
   border: 3px solid orange;
-  background: #ffe8d5e0;
 }
